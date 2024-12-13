@@ -1,0 +1,5 @@
+# user should register and login
+# after user logs in access-token will be provided
+# user should use that access-token to access the crud(Create,Read, Update, Delete) API. the API is private, and routes are protected.
+
+# Each user can only access and manage their own contacts.
