@@ -83,7 +83,7 @@ const loginUser = asyncHandler(async(req, res) => {
 //@route GET /api/users/current
 //@access private
 const currentUser = asyncHandler(async(req, res) =>{
-  res.json({massage: "current user information"})
+   res.json(req.user);
 })
 
 
